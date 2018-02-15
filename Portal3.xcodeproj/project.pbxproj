@@ -15,6 +15,7 @@
 		1DE08C5E2034D682006828F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE08C5C2034D682006828F7 /* LaunchScreen.storyboard */; };
 		1DE08C692034D682006828F7 /* Portal3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE08C682034D682006828F7 /* Portal3Tests.swift */; };
 		1DE08C742034D682006828F7 /* Portal3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE08C732034D682006828F7 /* Portal3UITests.swift */; };
+		1DE08C822034D691006828F7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE08C812034D691006828F7 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1DE08C6F2034D682006828F7 /* Portal3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Portal3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE08C732034D682006828F7 /* Portal3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portal3UITests.swift; sourceTree = "<group>"; };
 		1DE08C752034D682006828F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE08C812034D691006828F7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				1DE08C512034D682006828F7 /* AppDelegate.swift */,
 				1DE08C532034D682006828F7 /* art.scnassets */,
 				1DE08C552034D682006828F7 /* ViewController.swift */,
+				1DE08C812034D691006828F7 /* Extensions.swift */,
 				1DE08C572034D682006828F7 /* Main.storyboard */,
 				1DE08C5A2034D682006828F7 /* Assets.xcassets */,
 				1DE08C5C2034D682006828F7 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DE08C562034D682006828F7 /* ViewController.swift in Sources */,
+				1DE08C822034D691006828F7 /* Extensions.swift in Sources */,
 				1DE08C522034D682006828F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
