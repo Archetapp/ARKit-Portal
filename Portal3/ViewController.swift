@@ -74,11 +74,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         backWall.eulerAngles = SCNVector3.init(0, 90.0.degreesToRadians, 0)
         
         let leftDoorSide = createBox(isDoor: true)
-        leftDoorSide.position = SCNVector3.init((-length / 2) + (doorLength / 2), 0, length / 2)
+        leftDoorSide.position = SCNVector3.init((-length / 2 + width) + (doorLength / 2), 0, (length / 2) - width)
         leftDoorSide.eulerAngles = SCNVector3.init(0, -90.0.degreesToRadians, 0)
         
         let rightDoorSide = createBox(isDoor: true)
-        rightDoorSide.position = SCNVector3.init((length / 2) - (doorLength / 2), 0, length / 2)
+        rightDoorSide.position = SCNVector3.init((length / 2 - width) - (doorLength / 2), 0, (length / 2) - width)
         rightDoorSide.eulerAngles = SCNVector3.init(0, -90.0.degreesToRadians, 0)
         
         //Create Light
